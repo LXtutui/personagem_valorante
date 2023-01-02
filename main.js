@@ -4,7 +4,7 @@ var indice = 0;
  function trocar_personagem(){
     indice = indice + 1;
     var comprimento_da_lista = lista_de_img.length;
-    if (indice > comprimento_da_lista ){
+    if (indice >= comprimento_da_lista ){
         indice = 0;
     }
     document.getElementById("img_dos_personagens").src = lista_de_img[indice];
